@@ -1,12 +1,12 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
-    font-family: "Inter", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box  ;
 }
 
 body {
+    font-family: "Inter", sans-serif;
     width: 1440px;
     height: 2047px;
     background: #fff;
@@ -41,6 +41,7 @@ header span {
     font-weight: 700;
     font-size: 48px;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -52,7 +53,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px;
 }
 
@@ -62,11 +63,24 @@ header span {
     width: 1440px;
     height: 883px;
     background-color: #fff;
+    margin: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
-    margin-top: 100px;
+    width: 150px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    margin: 9px 87px 8px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    appearance: none;
+    background-image: url('./assets/img/ep_arrow-down.svg'); /* Заменяем на свою картинку */
+    background-repeat: no-repeat;
+    background-position: right
 }
 
 .section-title {
@@ -74,6 +88,7 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
@@ -86,6 +101,8 @@ select {
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px;
+    list-style-image: url("./assets/img/solar_map-arrow-up-bold.svg");
+    padding-left: 20px;
 }
 
 .books-list {
@@ -97,30 +114,71 @@ select {
     gap: 0px;
     width: 670px;
     height: 57px; 
+    padding-left: 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    margin-right: 9px;
 }
 
 .btn {
     /* Стили для кнопки */
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
 }
 
 .line {
     /* Стили для линии */
+    margin: 60px 0;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
 }
 
 table {
     /* Стили для таблицы */
+    width: 300px;
+    height: 196px;
+    border: #303030 solid 1px;
+    border-collapse: collapse;
 }
 
-th, td {
+th {
     /* Стили для ячеек таблицы */
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #303030;
+    border-style: solid;
+    padding: 12px 0 11px 15px;
+}
+
+td {
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+    padding: 11px 0px 12px 15px;
 }
 
 footer {
