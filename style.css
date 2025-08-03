@@ -2,7 +2,7 @@
     /* Свойства для сброса начальных стилей элементов */
     padding: 0;
     margin: 0;
-    box-sizing: border-box  ;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     width: 1440px;
     height: 2047px;
     background: #fff;
+    color: #303030; 
 }
 
 header {
@@ -40,7 +41,6 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 }
 
@@ -48,7 +48,6 @@ header span {
     /* Стили для текста в первой секции */
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 
 .main-image {
@@ -72,7 +71,6 @@ select {
     height: 36px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     margin: 9px 87px 8px 12px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
@@ -87,7 +85,6 @@ select {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
 }
 
@@ -95,7 +92,6 @@ select {
     /* Стили для маркированного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -121,8 +117,6 @@ select {
     /* Стили для подписей чекбоксов */
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
-
 }
 
 .text-field {
@@ -169,7 +163,6 @@ th {
     font-weight: 700;
     font-size: 14px;
     text-align: center;
-    color: #303030;
     border-style: solid;
     padding: 12px 0 11px 15px;
 }
@@ -183,8 +176,20 @@ td {
 
 footer {
     /* Стили для футера */
+    background: rgba(163, 167, 255, 0.3);
+    width: 1440px;
+    height: 70px;
+    padding: 26px 0 27px 1px;
 }
 
 .footer-link {
     /* Стили для футера */
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
 }
